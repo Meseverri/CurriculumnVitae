@@ -5,7 +5,7 @@ export const init = (app) => {
   const ret = `
     <section class="aboutme" id="aboutme">
     <h2>About me</h2>
-    <img class="avatar" src="https://i.pinimg.com/736x/8f/c2/ad/8fc2adfb17b261162bbd9a4af5239c64.jpg" alt="Peter"
+    <img class="avatar" src="src/views/init/assets/Smart Business Man, Business Man, Smart, Candidate PNG Transparent Image and Clipart for Free Download.jpeg" alt="Peter"
       parker="">
     <ul>
       <li>

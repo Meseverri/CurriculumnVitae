@@ -3,7 +3,7 @@ const data = {
     address: "123 Main Street, New York, NY",
     email: "peter.parker@email.com",
     avatar:
-      "https://i.pinimg.com/736x/8f/c2/ad/8fc2adfb17b261162bbd9a4af5239c64.jpg",
+      "src/views/init/assets/Smart Business Man, Business Man, Smart, Candidate PNG Transparent Image and Clipart for Free Download.jpeg",
     aboutMe:
       "I'm a passionate photographer, web developer, and journalist with a diverse educational background. I hold a Bachelor's degree in Science, a Web Development Certification, and a Master's in Journalism. My work experience includes capturing exclusive images as a photographer, developing web applications, and reporting on news stories. I'm committed to continuous learning and contributing to both the digital world and quality journalism.",
   

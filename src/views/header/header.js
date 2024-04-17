@@ -3,7 +3,7 @@ import "./header.css"
 export const header=(app)=>{
     const header$$=document.createElement("header");
     const ret = `
-    <h1>Peter Parker</h1>
+    <h1>Miguel Eseverri</h1>
     <nav>
       <ul>
         <li>
