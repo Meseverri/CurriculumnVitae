@@ -1,0 +1,29 @@
+@import "/style.css";
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-family-4);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width:100%
+
+}
+
+
+header,nav>ul>li>a{
+    color:white;
+}
+nav{
+    width:70%
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav>ul>li>a:hover{
+    font-family: var(--font-family-3);
+
+}

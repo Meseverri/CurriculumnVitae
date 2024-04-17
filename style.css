@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+10+Charted&display=swap');
+
+
+:root {
+  --font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-2: Open Sans, sans-serif;
+  --font-family-3: "Jersey 10 Charted", sans-serif;
+  --font-family-4: "Jersey 10", sans-serif;
+  --color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  list-style-type: none;
+  text-decoration: none;
+  /* font-family: var(--font-family-3); */
+  font-style: normal;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--background-color);
+  /* position:relative */
+
+
+}
