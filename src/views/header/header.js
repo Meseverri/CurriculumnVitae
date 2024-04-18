@@ -1,9 +1,10 @@
 import "./header.css"
+import data from "/src/data/data.js";
 
 export const header=(app)=>{
     const header$$=document.createElement("header");
     const ret = `
-    <h1>Miguel Eseverri</h1>
+    <h1>${data.name}</h1>
     <nav>
       <ul>
         <li>

@@ -21,18 +21,18 @@ const data = {
     },
     workExperience: [
       {
-        position: "Web Developer",
-        company: "Tech Solutions Inc.",
         startDate: "2013",
         endDate: "Present",
+        company: "Tech Solutions Inc.",
+        position: "Web Developer",
         description:
           "As a key member of the development team, I have contributed to various projects, from creating interactive web applications to optimizing database performance.",
       },
       {
-        position: "Freelance Web Developer",
-        company: "Self-employed",
         startDate: "2012",
         endDate: "2013",
+        company: "Self-employed",
+        position: "Freelance Web Developer",
         description:
           "During my freelancing period, I collaborated with clients from diverse industries, delivering tailor-made websites that met their unique needs and goals.",
       },
