@@ -4,5 +4,5 @@ import { header } from './src/views/header/header'
 import { init } from './src/views/init/init'    
 
 const app$$=document.querySelector("#app")
-header(app$$)
+header(data,app$$)
 init(data,app$$)
