@@ -1,0 +1,28 @@
+@import "/style.css";
+.projects{
+    text-decoration: none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.projects>ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.projects>ul>li{
+    min-width: 200px;
+    max-width: 300px;
+    /* padding: ; */
+}
+.projects>ul>li>a{
+    color:var(--color)
+}
+.projects>ul>li>img{
+    width:100%;
+    height: 150px;
+    object-fit: cover;
+
+}
