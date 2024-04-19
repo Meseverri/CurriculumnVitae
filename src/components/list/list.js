@@ -1,18 +1,17 @@
 import "./list.css";
 
-export const list = (dataList, context,modal,etiq="p") => {
-  const  ul=document.createElement("ul");
-  ul.classList.add(context)
-  dataList.forEach((item)=>{
-    let li=document.createElement("li" );
-    let inner=document.createElement(etiq);
-    inner.textContent= item;
-    li.appendChild(inner)
-    ul.appendChild(li)
-  })
-  modal.appendChild(ul)
-  
-  };
+export const list = (dataList, context, etiq = "p") => {
+  const ul = document.createElement("ul");
+  ul.classList.add(context);
+  dataList.forEach((item) => {
+    let li = document.createElement("li");
+    let inner = document.createElement(etiq);
+    inner.textContent = item;
+    li.appendChild(inner);
+    ul.appendChild(li);
+  });
+  return ul;
+};
 // export const listComplex = (props, context, etiqs = "p") => {
 //   /*props: Este es un array que contiene los elementos que quieres incluir en tu lista HTML. Si etiqs contiene más de una etiqueta, props debería ser un array de arrays, donde cada subarray contiene los valores para cada etiqueta.
 // context: Este es un string que se utiliza como nombre de clase para la lista HTML (<ul>). Puedes usarlo para aplicar estilos CSS a tu lista.
