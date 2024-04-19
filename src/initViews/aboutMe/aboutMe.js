@@ -17,8 +17,10 @@ export const aboutMe=(data,modal)=>{
     description.textContent=data.aboutMe;
     const direccion=document.createElement("p");
     direccion.textContent=data.address;
-    
-    section([h2,avatar,skills,description,direccion],"aboutme",modal);
+    const contactMe=document.createElement('a');
+    contactMe.setAttribute('href','mailto:'+ data.email)
+    contactMe.innerText='Contact me'
+    section([h2,avatar,skills,description,direccion,contactMe],"aboutme",modal);
     
 
 
