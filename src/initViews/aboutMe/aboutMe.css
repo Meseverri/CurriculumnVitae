@@ -1,13 +1,54 @@
 @import "/style.css"; 
-.aboutMe{
+.aboutme{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 
 }
 
-.aboutMe>h2{
+.aboutme>h2{
     font-size: 1.5em;
     font-family: var(--font-family-4);
 }
+main{
+    color:var(--color);
+    font-family: var(--font-family-4);
+}
+
+.aboutme-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+    /* background-color:var(--green-1); */
+
+}
+
+.aboutme-skills>li{
+
+    padding:2px 8px;
+    /* margin-bottom: 2px; */
+    background-color:var(--green-1);
+    border-radius: 1rem;
+    height: 90%;
+
+
+}
+.aboutme-skills>li>p{
+    margin: 0;
+    padding: 0;
+}
+@keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }

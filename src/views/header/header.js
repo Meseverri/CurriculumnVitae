@@ -7,12 +7,12 @@ export const header = (app) => {
   h1$$.textContent=data.name
   header$$.appendChild(h1$$)
   const nav$$=document.createElement("nav");
-  list(
+  const navUl$$=list(
     ["About me", "Education", "Experience", "Projects"],
     "header-nav-ul",
-    nav$$,
     "a"
   );
+  nav$$.appendChild(navUl$$)
   const aList=nav$$.querySelectorAll("a");
   aList.forEach(element => {
   element.setAttribute("href",`#${element.innerText.replace(/\s+/g, '').toLowerCase()}`);
