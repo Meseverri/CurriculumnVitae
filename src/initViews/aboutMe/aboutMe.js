@@ -6,10 +6,13 @@ export const aboutMe=(data,modal)=>{
     h2.textContent="About Me"
     const avatar=document.createElement('img')
     avatar.setAttribute('class','avatar');
-    avatar.setAttribute('src',data.);
+    avatar.setAttribute('src',data.avatar);
     
     const description=document.createElement("p")
+    
     const direccion=document.createElement("p")
+
+    
     section([h2,avatar],"aboutMe",modal)
 
 
