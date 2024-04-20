@@ -7,6 +7,5 @@ export const section=(contentList,context,modal)=>{
     contentList.forEach(element => {
         section.appendChild(element);
     });
-
     modal.appendChild(section)
 }
