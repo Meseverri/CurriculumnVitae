@@ -1,17 +1,17 @@
 const data = {
-    name: "Peter Parker",
-    address: "123 Main Street, New York, NY",
-    email: "peter.parker@email.com",
+    name: "Miguel Eseverri",
+    address: "",
+    email: "meseverrimarquez5@email.com",
     avatar:
       "src/views/init/assets/Smart Business Man, Business Man, Smart, Candidate PNG Transparent Image and Clipart for Free Download.jpeg",
     aboutMe:
-      "I'm a passionate photographer, web developer, and journalist with a diverse educational background. I hold a Bachelor's degree in Science, a Web Development Certification, and a Master's in Journalism. My work experience includes capturing exclusive images as a photographer, developing web applications, and reporting on news stories. I'm committed to continuous learning and contributing to both the digital world and quality journalism.",
+      "I'm a web developer, data scientis  with a diverse educational background in economics and mathematics. I hold a Bachelor's degree in economie, a Web Development and data science using python Certifications. My work experience i`ve work in a organization developing adatabase infrastructure aswell as creatin kpi dashboards using powerBi, also autamatize multiple extractions using power shell, azure storage, tranformed the data with azure fnctions and a python script to later load in the Kpis Dashboard",
   
     education: {
-      degree: "Bachelor of Science in Computer Science",
+      degree: "economic and mathematics",
       university: "City University of New York",
-      graduationYear: 2012,
-      honors: "Summa Cum Laude",
+      graduationYear: "",
+      honors: "",
       relevantCourses: [
         "Web Development Fundamentals",
         "Data Structures and Algorithms",
