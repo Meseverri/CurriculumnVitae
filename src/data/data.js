@@ -3,7 +3,7 @@ const data = {
     address: "",
     email: "meseverrimarquez5@email.com",
     avatar:
-      "src/views/init/assets/Smart Business Man, Business Man, Smart, Candidate PNG Transparent Image and Clipart for Free Download.jpeg",
+      "https://i.ibb.co/nLNS8Q4/Smart-Business-Man-Business-Man-Smart-Candidate-PNG-Transparent-Image-and-Clipart-for-Free-Download.jpg",
     aboutMe:
       "I'm a web developer, data scientis  with a diverse educational background in economics and mathematics. I hold a Bachelor's degree in economie, a Web Development and data science using python Certifications. My work experience i`ve work in a organization developing adatabase infrastructure aswell as creatin kpi dashboards using powerBi, also autamatize multiple extractions using power shell, azure storage, tranformed the data with azure fnctions and a python script to later load in the Kpis Dashboard",
   
