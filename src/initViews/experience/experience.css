@@ -1,0 +1,10 @@
+.experience,.experience-ul{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.experience-ul{
+    text-align: center;
+}

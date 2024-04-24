@@ -38,8 +38,6 @@ main{
     background-color:var(--green-1);
     border-radius: 1rem;
     height: 90%;
-
-
 }
 .aboutme-skills>li>p{
     margin: 0;

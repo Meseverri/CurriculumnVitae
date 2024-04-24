@@ -8,12 +8,10 @@ const experienceLiTxt = (
   position,
   description
 ) => {
-  return `<li>
-    <h3>${startDate} - ${endDate}</h3>
+  return `<h3>${startDate} - ${endDate}</h3>
     <h4>${company}</h4>
     <h4>${position}</h4>
-    <p>${description}</p>
-  </li>`;
+    <p>${description}</p>`;
 };
 const experienceLiAll = (items) => {
   let retLi = [];
@@ -37,6 +35,6 @@ export const experience = (data, modal) => {
 
   const experienceList = data.workExperience;
 
-  const ul = list(experienceLiAll(experienceList), "experience", "");
+  const ul = list(experienceLiAll(experienceList), "experience-ul", "");
   section([h2,ul], "experience", modal);
 };
