@@ -9,21 +9,21 @@ import {contentChangeEvent} from "/src/events/events"
 export const init = (data,app) => {
   const main$$ = document.createElement("main");
   aboutMe(data,main$$);
-  projects(data,main$$);
- //button change
+  //button change
   const changeDiv$$=document.createElement("div");
   const buttonChange$$=document.createElement("button");
-
+  
   buttonChange$$.setAttribute("class","change")
   buttonChange$$.textContent="Show education";
   changeDiv$$.appendChild(buttonChange$$,data);
   const content$$= document.createElement("div")
   content$$.setAttribute("id",'content')
-
-
+  
+  
   main$$.appendChild(changeDiv$$);
   experience(data,content$$)
   main$$.appendChild(content$$);
+  projects(data,main$$);
   app.appendChild(main$$);
   contentChangeEvent(buttonChange$$,data);
 };

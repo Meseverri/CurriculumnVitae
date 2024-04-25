@@ -1,0 +1,9 @@
+@import "/style.css";
+
+footer {
+    height: 80px;
+    display: grid;
+    place-items: center;
+    font-family: var(--font-family);
+    color: var(--color);
+  }
