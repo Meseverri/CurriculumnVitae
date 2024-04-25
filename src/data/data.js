@@ -9,14 +9,14 @@ const data = {
   
     education: {
       degree: "economic and mathematics",
-      university: "City University of New York",
-      graduationYear: "",
+      university: "Universidad Complutense Madrid",
+      graduationYear: "2027",
       honors: "",
       relevantCourses: [
-        "Web Development Fundamentals",
-        "Data Structures and Algorithms",
-        "Database Design",
-        "User Interface Design",
+        "Econometric",
+        "Finace",
+        "Advanced microeconomics and macroeconomics",
+        "PGC acounting",
       ],
     },
     workExperience: [

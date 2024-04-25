@@ -1,6 +1,8 @@
 import "./education.css";
 import {section} from "/src/components/section/section";
 import { list } from "/src/components/list/list";
+
+
 export const education=(data,modal)=>{
     const h2=document.createElement("h2");
     h2.textContent="Education";
