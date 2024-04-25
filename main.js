@@ -7,4 +7,4 @@ import  footer  from './src/views/footer/footer'
 const app$$=document.querySelector("#app")
 header(data,app$$)
 init(data,app$$)
-footer(app$$)
+// footer(app$$)

@@ -12,17 +12,19 @@ export const init = (data,app) => {
   //button change
   const changeDiv$$=document.createElement("div");
   const buttonChange$$=document.createElement("button");
-  
   buttonChange$$.setAttribute("class","change")
   buttonChange$$.textContent="Show education";
   changeDiv$$.appendChild(buttonChange$$,data);
+  main$$.appendChild(changeDiv$$);
+  
   const content$$= document.createElement("div")
   content$$.setAttribute("id",'content')
   
   
-  main$$.appendChild(changeDiv$$);
   experience(data,content$$)
+  
   main$$.appendChild(content$$);
+  
   projects(data,main$$);
   app.appendChild(main$$);
   contentChangeEvent(buttonChange$$,data);
