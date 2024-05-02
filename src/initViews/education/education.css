@@ -1,1 +1,8 @@
 @import "/style.css";
+
+.education{
+    display:inline-block;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
