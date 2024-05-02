@@ -1,2 +1,12 @@
 @import "/style.css";
 
+.change-button{
+    display: flex;
+    justify-content: center;
+}
+
+.change-button>button{
+height:  30px;
+padding:3px;
+font-family: var(--font-family-4);
+}

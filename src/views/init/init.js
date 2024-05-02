@@ -11,6 +11,8 @@ export const init = (data,app) => {
   aboutMe(data,main$$);
   //button change
   const changeDiv$$=document.createElement("div");
+  changeDiv$$.className="change-button";
+  
   const buttonChange$$=document.createElement("button");
   buttonChange$$.setAttribute("class","change")
   buttonChange$$.textContent="Show education";
