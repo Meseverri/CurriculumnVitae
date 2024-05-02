@@ -15,7 +15,7 @@
 .projects>ul>li{
     min-width: 200px;
     max-width: 300px;
-    /* padding: ; */
+    padding: 5px;
 }
 .projects>ul>li>a{
     color:var(--color)
@@ -25,4 +25,8 @@
     height: 150px;
     object-fit: cover;
 
+}
+.projects>ul>li>p{
+    padding: 3px;
+    
 }

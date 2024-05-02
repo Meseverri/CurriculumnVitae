@@ -1,17 +1,15 @@
 import "./footer.css";
 
 const template = () => {
-    
   return `
-  <footer>
     <p>©️ Created by QuantMike</p>
-  </footer>
   `;
 };
 
 const footer = (modal) => {
-    modal.innerHTML += template();
-  
+  const footer = document.createElement("footer");
+  footer.innerHTML = template();
+  modal.appendChild(footer)
 };
 
 export default footer;
