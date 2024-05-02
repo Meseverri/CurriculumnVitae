@@ -3,10 +3,13 @@
 .change-button{
     display: flex;
     justify-content: center;
+padding-top:5px;
+
+    
 }
 
 .change-button>button{
-height:  30px;
+height:  100%;
 padding:3px;
 font-family: var(--font-family-4);
 }

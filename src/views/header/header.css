@@ -33,3 +33,16 @@ nav>ul>li>a:hover{
     font-family: var(--font-family-3);
 
 }
+@media screen and (max-width:768px){
+header{
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    position:fixed;
+
+}
+nav>ul{
+    flex-direction: column;
+
+}
+}
